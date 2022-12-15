@@ -3,7 +3,7 @@ function App() {
     //     console.log('Buttom was clicked')
     // } 
 
-    return 
+    return (
     <div>
         <button onClick={() => console.log('Button was clicked')}> 
             Add Animal! 
@@ -12,6 +12,7 @@ function App() {
             Aniamls to show: 
         </p>
     </div>
+    )
 }
 
 export default App
