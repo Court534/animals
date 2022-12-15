@@ -1,7 +1,7 @@
 function App() {
     // const handleClick = () => {
     //     console.log('Buttom was clicked')
-    // }
+    // } 
 
     return 
     <div>
