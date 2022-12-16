@@ -14,13 +14,17 @@ function App() {
         setAnimals([...animals, getRamdomAnimal()])
     }
 
+    const renderedAnimals = animals.map((animal, index) => {
+        return <AnimalShow key={index} type={animal} />
+    })
+
     return (
     <div>
         <button onClick={handleClick}> 
             Add Animal 
         </button>
         <div>
-            {animals} 
+            {renderedAnimals} 
         </div>
     </div>
     )
